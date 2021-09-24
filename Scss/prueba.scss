@@ -67,28 +67,13 @@ body {margin: 0;
               }
               }      
 
+              .collapse {
+                     justify-content: space-between;
+              }
 
-    .checkList {height: 100%;
-                width: 95%;
-                padding: 35px;
-
-              &__order  {height: 100%;
-                            width: 90%;
-                            padding: 20px;
-                            margin: auto;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-between;
-                            border-radius: 15px;}
-              
-              li { color: black; ;
-                            margin: 15px auto;
-                            list-style-position: inside;
-                            padding: 20px;
-                            background-color: white;
-                            border-radius: 15px;}
-
-               }
+              .fondo { 
+                     background: url(../Assets/backgroundInicio.jpg);
+              }
 
 
     /*FLOTA*/
@@ -254,5 +239,46 @@ body {margin: 0;
               padding: 20px;
               text-align: center;
        }
-
+       
               }
+
+
+       .iconoUbicacion {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              
+              i {
+                     color: white;
+              }
+       }
+
+       .iconoFoto {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              
+              i {
+                     color: white;
+              }
+       }
+       
+       .iconoContacto {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              
+              i {
+                     color: white;
+              }
+       }
+       
+       .iconoCentral {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              color: white;}
